@@ -1,0 +1,51 @@
+.menu {
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 27pt; /* Размер шрифта в пунктах */ 
+    width: 700px; /* Ширина меню */
+    
+    padding: 1;				
+  }
+   .menu__link {
+    display: block;			/* Ссылка как блочный элемент */
+    width: 100%;				/* Ссылка на всю ширину меню */
+    padding: 5px;				/* Поля вокруг надписи */
+    border-left: 10px solid #F4AF52;	/* Линия слева */
+	border-right: 10px solid #F4AF52;	/* Линия слева */
+    background: #88EE88;			/* Исходный цвет фона */
+    color: #006600;				/* Исходный цвет текста */
+    text-decoration: none	;		/* Убираем подчеркивание у ссылок */
+    margin-bottom: 10px;
+    border-radius: 13em 0.5em/1em 0.5em;
+  }
+   .menu__link:hover {
+    border-left-color: orange;		/* Меняем цвет линии слева */
+    background: ##006600;			/* Новый цвет фона под ссылкой */
+    color: #ffffcc;			/* Новый цвет ссылки */
+    box-shadow: 2px 2px 10px #170e41;
+  }
+
+   body{
+       background-color: #E6E2E5;
+   }
+    ul {
+    list-style-type: none; /* Убирает метки списка */
+    }
+
+	h1{
+       font-size: 45px;
+	   font-style: italic; /* Курсивное начертание */
+	   text-align:center; 
+   }
+	h2{
+       font-size: 30px;
+	   font-style: italic; /* Курсивное начертание */
+	   text-indent: 20px;  
+   }
+    h3{
+       font-size: 25px;
+	   text-indent: 20px; 
+   }
+   p{
+	   font-size: 25px;
+	   text-indent: 20px; 
+   }
